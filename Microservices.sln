@@ -27,7 +27,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Models", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{5DC6015E-9D54-4690-BF63-C4ABABE27C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.APITest", "Services\ContactAPI\Contact.APITest\Contact.APITest.csproj", "{80A6267E-B114-4687-A68B-03FC1C59041E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.APITest", "Services\ContactAPI\Contact.APITest\Contact.APITest.csproj", "{80A6267E-B114-4687-A68B-03FC1C59041E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BDEDEB1-3838-43C2-839D-5CF9B43B1D7C}"
+	ProjectSection(SolutionItems) = preProject
+		cocker-compose.yml = cocker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

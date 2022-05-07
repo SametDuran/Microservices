@@ -6,7 +6,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_res_api",
           "Port": 7001
         }
       ],
@@ -14,12 +14,13 @@
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
+    
 
       "DownstreamPathTemplate": "/api/contacts/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_contact_api",
           "Port": 9001
         }
       ],
